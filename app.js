@@ -34,7 +34,7 @@ function Response (bool, systemId) {
     this.systemId = systemId;
 }
 
-var url = "amqp://app9030736_heroku.com:1CdeRfMLSJGgE2ph4u9yd1H_QqZE5a8I@tiger.cloudamqp.com/app9030736_heroku.com"; // default to localhost
+var url = "amqp://app9175480_heroku.com:33lZN5u8xbmsYVxEETHn7NiCltSSqgSF@tiger.cloudamqp.com/app9175480_heroku.com";
 var conn = amqp.createConnection({url:url}); // create the connection
 conn.on('ready', receive); // when connected, call "receive"
 
