@@ -1,3 +1,4 @@
+
 var amqp = require('amqp');
 
 function receive() {
